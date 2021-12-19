@@ -1,0 +1,24 @@
+{
+  "name": "about-me",
+  "version": "1.0.0",
+  "description": "about me page",
+  "scripts": {
+    "dev": "vite serve src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bachmdo/bachmdo.github.io.git"
+  },
+  "author": "bachmdo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bachmdo/bachmdo.github.io/issues"
+  },
+  "homepage": "https://github.com/bachmdo/bachmdo.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7",
+    "vite": "^2.7.3"
+  }
+}
