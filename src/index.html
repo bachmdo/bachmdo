@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="index.css" />
-    <title>about me</title>
-  </head>
-  <body>
-    <div class="container mx-auto p-4 flex justify-center items-center">
-      <section class="max-w-xl">
-        <figure
-          class="md:flex bg-gray-100 rounded-xl p-8 md:p-0 overflow-hidden"
-        >
-          <img
-            class="
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script type="module" src="./index.js"></script>
+  <title>about me</title>
+</head>
+
+<body>
+  <div class="container mx-auto p-4 flex justify-center items-center">
+    <section class="max-w-xl">
+      <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0 overflow-hidden">
+        <img class="
               w-24
               h-24
               md:w-48 md:h-auto md:rounded-none
               rounded-full
               mx-auto
               object-fill
-            "
-            src="/me.png"
-            alt=""
-          />
-          <div
-            class="
+            " src="/me.png" alt="" />
+        <div class="
               h-full
               pt-6
               md:p-8
@@ -35,18 +30,18 @@
               space-y-4
               flex-col
               justify-between
-            "
-          >
-            <blockquote>
-              <p class="text-lg font-medium">“It is what it is.”</p>
-            </blockquote>
-            <figcaption class="font-medium">
-              <div class="text-gray-500">Dominik Bachmann</div>
-              <div class="text-gray-700">Software Engineer, Zurich</div>
-            </figcaption>
-          </div>
-        </figure>
-      </section>
-    </div>
-  </body>
+            ">
+          <blockquote>
+            <p class="text-lg font-medium" id="quote">"Since I was a little kid, my passion has always been building reliable, scalable systems that solve real-world problems efficiently."</p>
+          </blockquote>
+          <figcaption class="font-medium">
+            <div class="text-gray-500">Dominik Bachmann</div>
+            <div class="text-gray-700">Software Engineer</div>
+          </figcaption>
+        </div>
+      </figure>
+    </section>
+  </div>
+</body>
+
 </html>
