@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   root: 'src',
-  base: '/bachmdo.github.io/',
+  base: '/bachmdo/',
   build: {
     outDir: '../dist',
     emptyOutDir: true,
